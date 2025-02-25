@@ -10,7 +10,6 @@ app.use(express.json())
 app.use(cors({
     origin: [
         'http://localhost:5173',
-        'https://seu-usuario.github.io', // Adicione seu domínio do GitHub Pages
         process.env.FRONTEND_URL // URL do frontend em produção
     ],
     credentials: true
